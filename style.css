@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #3d3846;
+  font-family: 'Anonymous Pro', monospace;  
+  text-align: center;
+  color: white;
+}
+
+.title {
+  size: 85px;
+}
