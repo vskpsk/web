@@ -8,8 +8,14 @@ html, body {
   font-family: 'Anonymous Pro', monospace;  
   text-align: center;
   color: white;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.title {
-  size: 85px;
+
+h1 {
+  font-size: 40px;
 }
