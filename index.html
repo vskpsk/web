@@ -3,55 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Nothing</title>
+  <title>vskpsk</title>
   <link href="./style.css" rel="stylesheet" type="text/css"/>
   <link rel="icon" type="image/jpg" href="./images/favicon.ico" />
-  <meta name="title" content="lab.sprincl.com">
+  <meta name="title" content="vskpsk.com">
   <meta name="description" content="dot">
-  <meta name="keywords" content="lab.sprincl.com, sprincl lab, lab sprincl">
+  <meta name="keywords" content="vskpsk.com, vskpsk, lab vsk-psk">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="English">
 </head>
 <body>
-  <h1 id="chmod">vskpsk@foo:~$ </h1>
-  <h1 id="dotnet"></h1>
-  <h1 id="dotnetre" class="colored"></h1>
-  <h1 id="echo"></h1>
-  <h1 id="welcome" class="colored"></h1>
-  <h1 id="ls"></h1>
-  <h1 href="https://github.com/vskpsk" id="github" class="colored"></h1>
-  <h1 id="discord" class="colored"></h1>
-  <h1 id="email" class="colored"></h1>
-  <h1 id="end"></h1>
-  <script src="script.js"></script>
+  <div class="centered-container">
+    <p>Hello, World!</p>
+  </div>
+  
   <style>
-    @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-    @font-face { font-family: Delicious; src: url('./fonts/bigblue.ttf'); } 
-    
-    html, body {
-      font-size: 100%;
-      background-color: #0c0c0c;
-      font-family: Delicious;  
-      text-align: center;
-      color: white;
-    }
-    
-    h1, a {
-      font-size: 15px;
-      margin-top: -5px;
-      display: flex; /* Přesuňte display: flex sem, pokud to chcete pro h1 elementy */
-      /* zde vypínáme podtržeí odkazů*/
-      text-decoration: none;
-    }
-    
-    .colored {
-      color: #34ebbd;
-    }
-    
-    .coloredl {
-      color: #3bc2a0;
-    }
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+      body{
+        height: 100%;
+        width: 100%;
+        background-color: #050505;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        color: aliceblue;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .centered-container {
+        display: grid;
+        place-items: center;
+        height: 100vh; /* Opět zajistí výšku celé obrazovky */
+      }
+
+      p{
+        font-size: 2rem;
+      }
+
+
   </style>
 </body>
 </html>
