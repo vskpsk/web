@@ -15,7 +15,7 @@
 </head>
 <body>
   <div class="centered-container">
-    <p>Hello, World!</p>
+    <p>:0</p>
   </div>
   
   <style>
@@ -27,7 +27,6 @@
         font-family: 'Raleway', sans-serif;
         text-align: center;
         color: aliceblue;
-        height: 100%;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -37,14 +36,21 @@
       .centered-container {
         display: grid;
         place-items: center;
-        height: 100vh; /* Opět zajistí výšku celé obrazovky */
+        height: 100vh;
       }
 
-      p{
+      .centered-container:hover {
+        color: rgb(173, 32, 0);
+      }
+
+      p {
         font-size: 2rem;
+        transition: font-size 0.5s ease;
       }
 
-
+      p:hover {
+        font-size: 10rem;
+      }
   </style>
 </body>
 </html>
